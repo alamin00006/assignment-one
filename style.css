@@ -1,1 +1,85 @@
 
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding:0px ;
+}
+section{
+    margin-bottom: 100px;
+}
+.heading-color{
+    color: orange;
+}
+.first-section{
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#section-1{
+    display: flex;
+}
+
+.first-section img{
+    width: 80%;
+}
+.border-left{
+    border-left: 3px solid red;
+    padding: 0px 7px;
+}
+a{
+    text-decoration: none;
+    background-image:linear-gradient(orange,red) ;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.item{
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item-1{
+    background-color: paleturquoise;
+}
+.item-2{
+    background-color: rgb(209, 166, 166);
+}
+.item-3{
+    background-color: rgba(22, 78, 78, 0.349);
+}
+#section-2-all{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.item img{
+    width: 50%;
+}
+span{
+    color: orange;
+}
+#section-3{
+    display: flex;
+}
+.end-section{
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.end-section img{
+    width:60%;
+}
+#section-4{
+    display: flex;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px 80px 0px 80px;
+}
+
