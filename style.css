@@ -4,6 +4,9 @@ body{
     margin:0px;
     padding:0px ;
 }
+h1{
+    margin: 0px;
+}
 section{
     margin-bottom: 100px;
 
@@ -14,7 +17,14 @@ section{
 .first-section{
     width: 50%;
     margin-left: 100px;
-    margin-right: 80px; 
+    margin-right: 80px;
+    
+}
+.margin-top{
+    margin-top: 120px;
+}
+.scroll-down{
+    margin-top: 40px;
 }
 #section-1{
     display: flex;
@@ -24,19 +34,26 @@ section{
     width: 80%;
 }
 .border-left{
-    border-left: 3px solid red;
-    padding: 0px 7px;
+    border-left: 5px solid ;
+    padding: 0px 5px;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+    font-size: 30px;
+    box-sizing: border-box;
 }
-a{
+
+.button-a{
     text-decoration: none;
-    background-image:linear-gradient(orange,red) ;
+    background-image:linear-gradient(red, blue) ;
     padding: 10px 40px;
     border-radius: 10px;
+    color: white;
 }
 .center{
     text-align: center;
     font-size: 50px;
     font-weight: 800;
+    margin-bottom: 50px;
 }
 .item{
     margin-left: 20px;
@@ -66,16 +83,24 @@ span{
 #section-3{
     display: flex;
 }
+.left-side{
+    margin-right: 150px;
+    margin-top: 40px;
+    
+}
 .end-section{
     width: 50%;
     margin-left: 100px;
-    margin-right: 80px;
+    
 }
 .end-section img{
-    width:60%;
+    width:80%;
 }
 #section-4{
     display: flex;
+}
+.right-side{
+    margin-top:70px;
 }
 footer{
     background-color: black;
