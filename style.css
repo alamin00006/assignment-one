@@ -72,7 +72,8 @@ section{
 #section-2-all{
     display: flex;
     margin-left: 80px;
-    margin-right: 80px; 
+    margin-right: 80px;
+     
 }
 .item img{
     width: 50%;
@@ -88,19 +89,23 @@ span{
     margin-top: 40px;
     
 }
-.end-section{
+.div{
     width: 50%;
     margin-left: 100px;
     
 }
-.end-section img{
+.div img{
     width:80%;
 }
 #section-4{
     display: flex;
 }
 .right-side{
-    margin-top:70px;
+    margin-top:50px;
+}
+.about-me{
+    margin-top: 100px;
+    margin-right:80px
 }
 footer{
     background-color: black;
